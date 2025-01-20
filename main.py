@@ -1201,4 +1201,87 @@
 # print(-1)
 
 
+# 5080
+# a = int(input())
+# x = 100
+# y = 100
+# for i in range(a):
+#     b, c = map(int, input().split())
+#     if b > c:
+#         x -= b
+#     elif b < c:
+#         y -= c
+# print(y)
+# print(x)
 
+
+
+# 1420
+# a = int(input())
+# name = []
+# score = []
+# rank = [1]*a
+# for i in range(a):
+#     b, c = input().split()
+#     name.append(b)
+#     score.append(int(c))
+# for i in range(a):
+#     for j in range(a):
+#         if i == j:
+#             continue
+#         if score[i] < score[j]:
+#             rank[i] += 1
+# for i in range(a):
+#     if rank[i] == 3:
+#         print(name[i])
+
+
+
+
+
+
+
+# 4562
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = str(a*b*c)
+# lst = [0]*10
+# for i in d:
+#     lst[int(i)] += 1
+# for i in lst:
+#     print(i)
+
+
+
+
+# 4626
+# a = int(input())
+# lst = list(map(int, input().split()))
+# score = 1
+# sum = 0
+# for i in lst:
+#     if i == 1:
+#         sum += score
+#         score += 1
+#     else:
+#         score = 1
+# print(sum)
+
+
+
+# 2044
+# a = input()
+# lst = []
+# for i in a:
+#     if i == 'A':
+#         del lst[-1]
+#     elif i == 'B':
+#         del lst[-2]
+#         del lst[-1]
+#     elif i == 'C':
+#         del lst[:]
+#     else:
+#         lst.append(i)
+# for i in lst:
+#     print(i, end='')
