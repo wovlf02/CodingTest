@@ -1148,19 +1148,57 @@
 
 
 
+# 2025
+# a, b, c = input().split("/")
+# lst1 = []
+# lst2 = []
+# for i in a:
+#     lst1.append(i)
+# for i in b:
+#     lst2.append(i)
+# for i in c:
+#     lst2.append(i)
+# lst1.sort()
+# lst2.sort()
+# if lst1 == lst2:
+#     print("yes")
+# else:
+#     print("no")
 
-a, b, c = input().split("/")
-lst1 = []
-lst2 = []
-for i in a:
-    lst1.append(i)
-for i in b:
-    lst2.append(i)
-for i in c:
-    lst2.append(i)
-lst1.sort()
-lst2.sort()
-if lst1 == lst2:
-    print("yes")
-else:
-    print("no")
+
+
+
+# 2037
+# a = int(input())
+# lst = []
+# for i in range(a, 1001):
+#     if i // a == 1:
+#         lst.append(i)
+# print({ *lst })
+
+
+
+
+# 2083
+# a, b = map(int, input().split())
+# lst = list(map(int, input().split()))
+# for i in range(a):
+#     if lst[i] == b:
+#         print(i + 1)
+#         exit(1)
+# print(-1)
+
+
+
+
+# 2082
+# a, b = map(int, input().split())
+# lst = list(map(int, input().split()))
+# for i in range(a):
+#     if lst[i] == b:
+#         print(i + 1)
+#         exit(1)
+# print(-1)
+
+
+
